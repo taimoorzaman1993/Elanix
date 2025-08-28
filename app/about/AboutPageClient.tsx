@@ -72,7 +72,7 @@ export default function AboutPageClient() {
               <p className="text-xl text-gray-200 mb-8">
                 For over a decade, Elanix Enterprise has been a trusted partner for businesses across the USA, offering services like medical billing, virtual assistance, digital marketing, web & app development, and AI automation to help streamline operations and drive growth.
               </p>
-              <Link href="/https://api.whatsapp.com/send/?phone=15123759999&text&type=phone_number&app_absent=0">
+              <Link href="/contact">
                 <Button size="lg" className="bg-cyan-600 hover:bg-cyan-700 text-white px-8 py-3">
                   Partner With Us
                 </Button>
@@ -87,7 +87,7 @@ export default function AboutPageClient() {
             >
               <Image
                 src="/aboutus.jpg?height=500&width=600"
-                alt="BellMedEx Team"
+                alt="Elanix Team"
                 width={600}
                 height={500}
                 className="rounded-lg shadow-2xl"

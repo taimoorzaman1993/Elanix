@@ -20,10 +20,10 @@ export const metadata: Metadata = {
     url: "/privacy-policy",
     images: [
       {
-        url: "/images/privacy-og-image.jpg",
+        url: "/web.png",
         width: 1200,
         height: 630,
-        alt: "Healthcare Data Privacy and Security",
+        alt: "Bussiness Data Privacy and Security",
       },
     ],
   },

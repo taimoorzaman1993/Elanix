@@ -183,7 +183,7 @@ export default function Header() {
                 />
               </div>
               <div>
-                <span className="text-xl md:text-2xl font-bold text-blue-900">Elanix EnterPrise</span>
+                <span className="text-xl md:text-2xl font-bold text-blue-900">Elanix Enterprise</span>
                 <div className="text-xs text-blue-600 font-medium">Smart Solutions. Global Impact.</div>
               </div>
             </Link>

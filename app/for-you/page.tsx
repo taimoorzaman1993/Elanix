@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     url: "/for-you",
     images: [
       {
-        url: "/images/solutions-og-image.jpg",
+        url: "/web.png",
         width: 1200,
         height: 630,
         alt: "Tailored Business Solutions for Every Size",

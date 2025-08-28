@@ -2,9 +2,9 @@ import type { Metadata } from "next"
 import HomePageClient from "./HomePageClient"
 
 export const metadata: Metadata = {
-  title: "Professional Healthcare Solutions & Medical Billing Services",
+  title: "Elanix Enterprise - Medical Billing & Bussiness Solutions",
   description:
-    "Elanix Enterprise provides comprehensive healthcare solutions including medical billing, credentialing, virtual assistance, web development, and digital marketing. Trusted by 500+ healthcare providers with 99.5% accuracy rate.",
+    "Elanix Enterprise provides comprehensive bussiness solutions including medical billing, credentialing, virtual assistance, web development, and digital marketing. Trusted by 500+ bussinesses  with 99.5% accuracy rate.",
   keywords: [
     "medical billing services",
     "healthcare credentialing",
@@ -16,23 +16,23 @@ export const metadata: Metadata = {
     "healthcare revenue cycle management",
   ],
   openGraph: {
-    title: "Professional Healthcare Solutions & Medical Billing Services",
+    title: "Elanix Enterprise - Medical Billing & Bussiness Solutions",
     description:
-      "Comprehensive healthcare solutions with 99.5% accuracy rate. Medical billing, credentialing, virtual assistance, and more for healthcare providers.",
+      "Comprehensive bussiness solutions with 99.5% accuracy rate. Medical billing, credentialing, virtual assistance, and more for bussinesses .",
     url: "/",
     images: [
       {
         url: "/images/home-og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Elanix Enterprise Healthcare Solutions Dashboard",
+        alt: "Elanix Enterprise Bussiness Solutions Dashboard",
       },
     ],
   },
   twitter: {
-    title: "Professional Healthcare Solutions & Medical Billing Services",
+    title: "Elanix Enterprise - Medical Billing & Bussiness Solutions",
     description:
-      "Comprehensive healthcare solutions with 99.5% accuracy rate. Medical billing, credentialing, virtual assistance, and more.",
+      "Comprehensive bussiness solutions with 99.5% accuracy rate. Medical billing, credentialing, virtual assistance, and more.",
   },
   alternates: {
     canonical: "/",

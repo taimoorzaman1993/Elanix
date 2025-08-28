@@ -1,41 +1,59 @@
 import type { Metadata } from "next"
 import BlogClientPage from "./BlogClientPage"
 
+
 export const metadata: Metadata = {
-  title: "Healthcare Billing Blog - Medical Billing Tips & Insights",
+  title: "Elanix Enterprise Blog - Insights on Medical Billing, Web, Apps, AI & More",
   description:
-    "Stay informed with the latest medical billing trends, coding updates, and healthcare revenue management insights. Expert tips from Elanix Enterprise billing professionals.",
+    "Explore expert insights from Elanix Enterprise on medical billing, web & app development, AI automations, digital marketing, and QuickBooks accounting. Stay ahead with tips, trends, and strategies to grow your business.",
   keywords: [
-    "medical billing blog",
-    "healthcare billing tips",
-    "medical coding updates",
-    "revenue cycle management",
-    "healthcare compliance news",
-    "medical billing best practices",
-    "healthcare industry insights",
+    // Blog specific
+    "Elanix Enterprise blog",
+    "business insights blog",
+    "tech and healthcare blog",
+    "medical billing tips",
+    "healthcare compliance updates",
+    "web development insights",
+    "AI automation blog",
+    "digital marketing strategies",
+    "QuickBooks accounting blog",
+    // Service-specific
+    "medical billing services",
+    "healthcare billing",
+    "custom web development",
+    "mobile app development",
+    "AI workflow automation",
+    "SEO digital marketing",
+    "QuickBooks bookkeeping",
   ],
+
   openGraph: {
-    title: "Healthcare Billing Blog - Medical Billing Tips & Insights",
+    title: "Elanix Enterprise Blog - Medical Billing, Tech & Business Insights",
     description:
-      "Latest medical billing trends, coding updates, and healthcare revenue management insights from industry experts.",
-    url: "/blog",
+      "Stay informed with Elanix Enterprise’s expert blogs on medical billing, coding, web development, app solutions, AI automation, digital marketing, and QuickBooks accounting.",
+    url: "https://elanixenterprise.com/blog",
+    siteName: "Elanix Enterprise",
     images: [
       {
-        url: "/medicalbilling.jpg",
+        url: "https://elanixenterprise.com/web.png",
         width: 1200,
         height: 630,
-        alt: "Healthcare Billing Blog and Insights",
+        alt: "Elanix Enterprise Blog",
       },
     ],
+    locale: "en_US",
+    type: "website",
   },
+
   twitter: {
-    title: "Healthcare Billing Blog - Medical Billing Tips & Insights",
-    description: "Latest medical billing trends and healthcare revenue management insights from industry experts.",
+    card: "summary_large_image",
+    title: "Elanix Enterprise Blog - Medical Billing, Web, Apps, AI & Marketing",
+    description:
+      "Explore expert blogs from Elanix Enterprise covering medical billing, web & app dev, AI automation, digital marketing, and QuickBooks accounting solutions.",
+    images: ["https://elanixenterprise.com/web.png"],
   },
-  alternates: {
-    canonical: "/blog",
-  },
-}
+};
+
 
 export default function BlogPage() {
   return <BlogClientPage />

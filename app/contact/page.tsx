@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import ContactPageClient from "./ContactPageClient"
 
 export const metadata: Metadata = {
-  title: "Contact Us - Get Free Healthcare Billing Quote",
+  title: "Contact Us - Get Free  Quote",
   description:
     "Contact Elanix Enterprise for a free consultation on medical billing, credentialing, and healthcare solutions. Call (512) 375-9999 or get your free quote online today.",
   keywords: [
@@ -16,11 +16,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact Us - Get Free Healthcare Billing Quote | Elanix Enterprise",
     description:
-      "Get a free consultation on medical billing and healthcare solutions. Contact our experts today for personalized service.",
+      "Get a free consultation on medical billing and bussinesses solutions. Contact our experts today for personalized service.",
     url: "/contact",
     images: [
       {
-        url: "/images/contact-og-image.jpg",
+        url: "/web.png",
         width: 1200,
         height: 630,
         alt: "Contact Elanix Enterprise for Healthcare Solutions",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     title: "Contact Us - Get Free Healthcare Billing Quote",
-    description: "Get a free consultation on medical billing and healthcare solutions. Contact our experts today.",
+    description: "Get a free consultation on medical billing and bussinesses solutions. Contact our experts today.",
   },
   alternates: {
     canonical: "/contact",
