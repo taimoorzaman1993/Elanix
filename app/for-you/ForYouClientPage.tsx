@@ -66,8 +66,8 @@ const benefits = [
 const handleDownloadGuide = () => {
   // Create a dummy PDF download
   const link = document.createElement("a")
-  link.href = "/placeholder.pdf" // This would be a real PDF file in production
-  link.download = "Elanix-Enterprise-Practice-Guide.pdf"
+  link.href = "/Elanix.pdf" // This would be a real PDF file in production
+  link.download = "Elanix-Enterprise-Guide.pdf"
   document.body.appendChild(link)
   link.click()
   document.body.removeChild(link)

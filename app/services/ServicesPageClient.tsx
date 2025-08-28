@@ -64,6 +64,34 @@ const services = [
     href: "/services/digital-marketing",
   },
   {
+    title: "App Development",
+    description:
+      "Create powerful mobile and web applications tailored to your business needs with our expert development team.",
+    icon: Smartphone,
+    href: "/services/app-development",
+  },
+  {
+    title: "AI Automation",
+    description:
+      "Streamline your business processes with cutting-edge AI automation solutions that increase efficiency and reduce costs.",
+    icon: Bot,
+    href: "/services/ai-automation",
+  },
+  {
+    title: "AutoCAD Services",
+    description:
+      "Professional CAD design and drafting services for engineering, architecture, and technical documentation needs.",
+    icon: Drafting,
+    href: "/services/autocad",
+  },
+  {
+    title: "QuickBooks Accounting",
+    description:
+      "Complete accounting and bookkeeping services using QuickBooks to manage your finances and maintain accurate records.",
+    icon: Calculator,
+    href: "/services/quickbooks",
+  },
+  {
     title: "Claims Processing",
     description:
       "Our advanced claims processing service ensures fast and accurate submission of medical claims, resulting in higher acceptance rates and quicker reimbursements.",
@@ -105,34 +133,7 @@ const services = [
     icon: Headphones,
     href: "/services/support-services",
   },
-  {
-    title: "App Development",
-    description:
-      "Create powerful mobile and web applications tailored to your business needs with our expert development team.",
-    icon: Smartphone,
-    href: "/services/app-development",
-  },
-  {
-    title: "AI Automation",
-    description:
-      "Streamline your business processes with cutting-edge AI automation solutions that increase efficiency and reduce costs.",
-    icon: Bot,
-    href: "/services/ai-automation",
-  },
-  {
-    title: "AutoCAD Services",
-    description:
-      "Professional CAD design and drafting services for engineering, architecture, and technical documentation needs.",
-    icon: Drafting,
-    href: "/services/autocad",
-  },
-  {
-    title: "QuickBooks Accounting",
-    description:
-      "Complete accounting and bookkeeping services using QuickBooks to manage your finances and maintain accurate records.",
-    icon: Calculator,
-    href: "/services/quickbooks",
-  },
+  
   
 ]
 
