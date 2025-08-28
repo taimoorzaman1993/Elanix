@@ -215,7 +215,7 @@ const testimonials = [
     content:
       "Elanix EnterPrise has transformed our billing process completely. Our revenue increased by 35% within the first six months, and we no longer worry about claim denials or payment delays.",
     rating: 5,
-    image: "/test/testhome1.png?height=80&width=80",
+    image: "/test/testhome1.jpeg?height=80&width=80",
   },
   {
     name: "Dr. Michael Chen",
@@ -223,7 +223,7 @@ const testimonials = [
     content:
       "The virtual assistant services have been a game-changer for our practice. We can now focus on patient care while they handle all administrative tasks efficiently.",
     rating: 5,
-    image: "/test/testhome2.png?height=80&width=80",
+    image: "/test/testhome2.jpeg?height=80&width=80",
   },
   {
     name: "Dr. Matthew Hayes",
@@ -231,7 +231,7 @@ const testimonials = [
     content:
       "Their credentialing services helped us get licensed in multiple states quickly. The process was smooth and professional throughout.",
     rating: 5,
-    image: "/test/testhome3.png?height=80&width=80",
+    image: "/test/testhome3.jpeg?height=80&width=80",
   },
 ]
 

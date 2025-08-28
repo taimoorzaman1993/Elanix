@@ -97,17 +97,20 @@ export default function StateLicencingClientPage() {
                     size="lg"
                     className="bg-blue-600 hover:bg-blue-700 text-white px-6 md:px-8 py-3 w-full sm:w-auto"
                   >
-                    Get Licensed Today
+                    Get Licenced Today 
                     <ArrowRight className="ml-2 w-4 h-4 md:w-5 md:h-5" />
                   </Button>
                 </Link>
+
+                <Link href="/for-you"  target="_blank">
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-white text-white hover:bg-white hover:text-blue-900 px-6 md:px-8 py-3 w-full sm:w-auto"
+                  className="border-white text-white hover:bg-white hover:text-blue-900 px-6 md:px-8 py-3 w-full sm:w-auto bg-transparent"
                 >
                   Learn More
                 </Button>
+                </Link>
               </div>
             </motion.div>
 

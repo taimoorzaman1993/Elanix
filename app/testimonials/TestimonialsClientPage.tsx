@@ -13,7 +13,7 @@ const testimonials = [
     content:
       "Elanix Enterprise has transformed our billing process completely. Our revenue increased by 35% within the first six months, and we no longer worry about claim denials or payment delays. Their team is professional, responsive, and truly understands the complexities of medical billing.",
     rating: 5,
-    image: "/testom/test1.png?height=80&width=80",
+    image: "/testom/test1.jpeg?height=80&width=80",
     specialty: "Cardiology",
   },
   {
@@ -22,7 +22,7 @@ const testimonials = [
     content:
       "The virtual assistant services have been a game-changer for our practice. We can now focus on patient care while they handle all administrative tasks efficiently. The cost savings and improved productivity have been remarkable.",
     rating: 5,
-    image: "/testom/test2.png?height=80&width=80",
+    image: "/testom/test2.jpeg?height=80&width=80",
     specialty: "Family Medicine",
   },
   {
@@ -31,7 +31,7 @@ const testimonials = [
     content:
       "Their credentialing services helped us get licensed in multiple states quickly. The process was smooth and professional throughout. We highly recommend Elanix Enterprise for any healthcare provider looking to expand their practice.",
     rating: 5,
-    image: "/testom/test3.png?height=80&width=80",
+    image: "/testom/test3.jpeg?height=80&width=80",
     specialty: "Pediatrics",
   },
   {
@@ -40,7 +40,7 @@ const testimonials = [
     content:
       "The web development team created a beautiful, HIPAA-compliant website for our practice. Patient inquiries have increased by 50% since the launch. Their attention to detail and understanding of healthcare needs is exceptional.",
     rating: 5,
-    image: "/testom/test4.png?height=80&width=80",
+    image: "/testom/test4.jpeg?height=80&width=80",
     specialty: "Orthopedics",
   },
   {
@@ -49,7 +49,7 @@ const testimonials = [
     content:
       "Their digital marketing services have significantly increased our online presence. We're now ranking on the first page of Google for our target keywords, and new patient appointments have doubled.",
     rating: 5,
-    image: "/testom/test5.png?height=80&width=80",
+    image: "/testom/test5.jpeg?height=80&width=80",
     specialty: "Dermatology",
   },
   {
@@ -58,7 +58,7 @@ const testimonials = [
     content:
       "Working with Elanix Enterprise has been one of the best decisions for our practice. Their comprehensive approach to revenue cycle management has streamlined our operations and improved our cash flow significantly.",
     rating: 5,
-    image: "/testom/test6.png?height=80&width=80",
+    image: "/testom/test6.jpeg?height=80&width=80",
     specialty: "Internal Medicine",
   },
 ]

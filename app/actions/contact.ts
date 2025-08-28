@@ -86,8 +86,7 @@ export async function submitContactForm(formData: FormData) {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS,
       },
-    })
-
+    })   
     await transporter.sendMail({
       from: `Elanix Enterprise Contact <${process.env.EMAIL_USER}>`,
       to: "info@elanixenterprise.com",
