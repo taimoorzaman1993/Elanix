@@ -52,8 +52,8 @@ const pricingData = [
   },
   {
     service: "Virtual Assistant",
-    tier1: "40 H/W\n($1000 per month)",
-    tier2: "20 H/W\n($600 per month)",
+    tier1: "20 H/W\n($600 per month)",
+    tier2: "40 H/W\n($1000 per month)",
     tier3: "Custom Plan",
   },
 ]
