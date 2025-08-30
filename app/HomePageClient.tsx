@@ -597,7 +597,7 @@ export default function HomePageClient() {
             viewport={{ once: true }}
             className="text-center mb-12 md:mb-16"
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 md:mb-6">Why Choose Elanix EnterPrise?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 md:mb-6">Why Choose Elanix Enterprise?</h2>
             <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
               We're committed to delivering exceptional bussiness solutions that drive results and exceed expectations.
             </p>
@@ -760,7 +760,7 @@ export default function HomePageClient() {
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
             <h2 className="text-3xl md:text-4xl font-bold mb-4 md:mb-6">Ready to Transform Your Bussiness?</h2>
             <p className="text-lg md:text-xl mb-6 md:mb-8 text-blue-100 max-w-2xl mx-auto px-4">
-              Join hundreds of bussiness providers who trust Elanix EnterPrise for their professional service needs.
+              Join hundreds of bussiness providers who trust Elanix Enterprise for their professional service needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
