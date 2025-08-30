@@ -16,7 +16,7 @@ const pricingData = [
   },
   {
     service: "Billing (In network)",
-    tier1: "2.99%",
+    tier1: "4.99%\n(min $250)",
     tier2: "3.99%",
     tier3: "4.99%",
   },
@@ -45,7 +45,7 @@ const pricingData = [
     tier3: "$1100",
   },
    {
-    service: "AutoCAD Services",
+    service: "Architecture & Design Services",
     tier1: "$350",
     tier2: "$600",
     tier3: "$900",

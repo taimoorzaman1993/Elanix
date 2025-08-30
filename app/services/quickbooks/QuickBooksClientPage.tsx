@@ -125,7 +125,7 @@ export default function QuickBooksClientPage() {
             >
               <Image
                 src="/services/quickbook.jpg?height=500&width=600&text=QuickBooks+Services"
-                alt="QuickBooks Accounting Services"
+                alt="Bookkeeping & Accounting Services"
                 width={600}
                 height={500}
                 className="rounded-lg shadow-2xl w-full h-auto"
@@ -164,7 +164,7 @@ export default function QuickBooksClientPage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
             <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
-              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Our QuickBooks Services</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Our BookKeeping & Accounting Services</h2>
               <div className="space-y-3 md:space-y-4">
                 {services.map((service, index) => (
                   <motion.div
@@ -205,7 +205,7 @@ export default function QuickBooksClientPage() {
       </section>
 
       <PricingTable
-        serviceName="QuickBooks & Accounting"
+        serviceName="BookKeeping & Accounting"
         tiers={[
           {
             name: "Basic",
@@ -247,7 +247,7 @@ export default function QuickBooksClientPage() {
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
             <h2 className="text-3xl md:text-4xl font-bold mb-4 md:mb-6">Ready to Streamline Your Finances?</h2>
             <p className="text-lg md:text-xl mb-6 md:mb-8 text-blue-100 max-w-2xl mx-auto px-4">
-              Get professional QuickBooks accounting services and take control of your business finances.
+              Get professional Bookkeeping & accounting services and take control of your business finances.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 px-6 md:px-8 py-3">

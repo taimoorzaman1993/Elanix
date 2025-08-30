@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import CommunicationClientPage from "./CommunicationClientPage"
 
 export const metadata: Metadata = {
-  title: "Communication Hub - 24/7 Healthcare Support & Contact Methods",
+  title: "Communication Hub - 24/7 Customer Support & Contact Methods",
   description:
     "Multiple ways to reach Elanix Enterprise: phone (512) 375-9999, email, live chat, and video consultations. 24/7 emergency support for healthcare providers.",
   keywords: [
@@ -20,15 +20,15 @@ export const metadata: Metadata = {
     url: "/communication",
     images: [
       {
-        url: "/images/communication-og-image.jpg",
+        url: "/web.png",
         width: 1200,
         height: 630,
-        alt: "Healthcare Communication and Support Options",
+        alt: "Bussiness Communication and Support Options",
       },
     ],
   },
   twitter: {
-    title: "Communication Hub - 24/7 Healthcare Support",
+    title: "Communication Hub - 24/7 Customer Support",
     description: "Multiple contact methods including 24/7 emergency support for healthcare providers.",
   },
   alternates: {

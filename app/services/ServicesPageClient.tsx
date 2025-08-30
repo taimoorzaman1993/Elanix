@@ -78,7 +78,7 @@ const services = [
     href: "/services/ai-automation",
   },
   {
-    title: "AutoCAD Services",
+    title: "Architecture & Design Services",
     description:
       "Professional CAD design and drafting services for engineering, architecture, and technical documentation needs.",
     icon: Drafting,

@@ -100,7 +100,7 @@ export default function PayoneerPage() {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900 text-lg">Website</h4>
-                        <p className="text-gray-600 text-lg">ITmed Healthcare Solutions</p>
+                        <p className="text-gray-600 text-lg">Elanix Enterprise</p>
                       </div>
                     </div>
 

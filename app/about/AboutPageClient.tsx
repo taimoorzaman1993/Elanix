@@ -224,7 +224,7 @@ export default function AboutPageClient() {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {team.map((member, index) => (
               <motion.div
                 key={member.name}
@@ -250,7 +250,7 @@ export default function AboutPageClient() {
                 </Card>
               </motion.div>
             ))}
-          </div>
+          </div> */}
         </div>
       </section>
 

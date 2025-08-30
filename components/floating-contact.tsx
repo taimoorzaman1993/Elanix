@@ -46,7 +46,7 @@ export default function FloatingContact() {
               whileTap={{ scale: 0.95 }}
             >
               <MessageCircle className="w-6 h-6" />
-              <span className="font-medium">iMessage</span>
+              <span className="font-medium">Text</span>
             </motion.button>
           </motion.div>
         )}

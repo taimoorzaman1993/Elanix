@@ -119,7 +119,7 @@ export default function Footer() {
                   href="/services/autocad"
                   className="text-blue-200 hover:text-white transition-colors text-sm md:text-base"
                 >
-                  AutoCAD
+                  Architecture & Design
                 </Link>
               </li>
 
@@ -128,7 +128,7 @@ export default function Footer() {
                   href="/services/quickbooks"
                   className="text-blue-200 hover:text-white transition-colors text-sm md:text-base"
                 >
-                  QuickBook
+                  BookKeeping & Accounting
                 </Link>
               </li>
 

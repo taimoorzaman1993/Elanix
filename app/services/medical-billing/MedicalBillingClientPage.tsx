@@ -11,14 +11,15 @@ import CommonQuestions from "@/components/common-questions"
 import PricingTable from "@/components/pricing-table"
 
 const services = [
+  "Revenue Cycle Management",
+  "Insurance Verification",
+  "Prior Authorization",
+  "Coding & Compliance",
   "Claims Processing & Submission",
   "Payment Posting & Reconciliation",
   "Denial Management & Appeals",
   "Patient Billing & Collections",
-  "Insurance Verification",
-  "Prior Authorization",
-  "Coding & Compliance",
-  "Revenue Cycle Management",
+
 ]
 
 const benefits = [
@@ -77,7 +78,7 @@ const faqData = {
 const pricingTiers = [
   {
     name: "Basic",
-    price: "2.99%",
+    price: "3.99%\n(min $250)",
     description: "of total collection",
   },
   {

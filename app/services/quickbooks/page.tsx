@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import QuickBooksClientPage from "./QuickBooksClientPage"
 
 export const metadata: Metadata = {
-  title: "QuickBooks Accounting Services - Professional Bookkeeping | Elanix Enterprise",
+  title: "BookKeeping & Accounting Services - Professional Bookkeeping | Elanix Enterprise",
   description:
     "Complete accounting and bookkeeping services using QuickBooks to manage your finances and maintain accurate records. Expert QuickBooks setup and training.",
   keywords: [
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
     "financial consulting",
   ],
   openGraph: {
-    title: "QuickBooks Accounting Services - Professional Bookkeeping | Elanix Enterprise",
+    title: "BookKeeping Accounting Services - Professional Bookkeeping | Elanix Enterprise",
     description:
-      "Complete accounting and bookkeeping services using QuickBooks to manage your finances and maintain accurate records.",
+      "Complete accounting and bookkeeping services using BookKeeping to manage your finances and maintain accurate records.",
     type: "website",
     url: "https://elanixenterprise.com/services/quickbooks",
     images: [

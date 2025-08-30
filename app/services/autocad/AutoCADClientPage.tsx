@@ -46,7 +46,7 @@ const stats = [
 ]
 
 const faqData = {
-  title: "Common Questions About AutoCAD Services",
+  title: "Common Questions About Architecture & Design Services",
   questions: [
     {
       question: "What types of CAD drawings do you create?",
@@ -79,7 +79,7 @@ const faqData = {
         "Yes, we follow all relevant industry standards including ANSI, ISO, and specific industry guidelines to ensure your drawings meet professional requirements.",
     },
   ],
-  serviceName: "AutoCAD Services",
+  serviceName: "Architecture & Design",
 }
 
 export default function AutoCADClientPage() {
@@ -96,7 +96,7 @@ export default function AutoCADClientPage() {
                 </div>
                 <Badge className="bg-blue-500 text-white px-3 py-1 text-sm">CAD Services</Badge>
               </div>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6">AutoCAD Services</h1>
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6">Architecture & Design Services</h1>
               <p className="text-lg md:text-xl text-blue-200 mb-6 md:mb-8">
                 Professional CAD design and drafting services for engineering, architecture, and technical documentation
                 needs with 15+ years of experience.
@@ -132,7 +132,7 @@ export default function AutoCADClientPage() {
             >
               <Image
                 src="/services/autocad.jpg?height=500&width=600&text=AutoCAD+Services"
-                alt="AutoCAD Services"
+                alt="Architecture & Design Services"
                 width={600}
                 height={500}
                 className="rounded-lg shadow-2xl w-full h-auto"

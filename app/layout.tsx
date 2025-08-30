@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   },
   generator: 'Talha Ahmed , Sadeem Ahmed || Web Developer ',
   description:
-      "Elanix Enterprise is a leading business solutions provider offering medical billing, virtual assistance, web & app development, digital marketing, AI automation, QuickBooks, and more — helping businesses nationwide streamline operations and grow efficiently.",
+      "Elanix Enterprise is a leading business solutions provider offering medical billing, virtual assistance, web & app development, digital marketing, AI automation, Bookkeeping & Accounting, and more — helping businesses nationwide streamline operations and grow efficiently.",
   icons: {
     icon: "/favicon.png", // this will handle <link rel="icon">
     shortcut: "/favicon.ico",
