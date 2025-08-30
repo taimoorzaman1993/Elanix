@@ -139,7 +139,7 @@ const stats = [
 const pricingPlans = [
   {
     name: "Starter",
-    price: "4.99%\n(min $250)",
+    price: "4.99%",
     description: "Perfect for small practices",
     features: ["Claims Processing", "Payment Posting", "Basic Reporting", "Email Support"],
     popular: false,
