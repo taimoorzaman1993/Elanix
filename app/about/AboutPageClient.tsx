@@ -210,7 +210,7 @@ export default function AboutPageClient() {
       </section>
 
       {/* Team Section */}
-      <section className="py-20 bg-gray-50">
+      {/* <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -224,7 +224,7 @@ export default function AboutPageClient() {
             </p>
           </motion.div>
 
-          {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {team.map((member, index) => (
               <motion.div
                 key={member.name}
@@ -250,9 +250,9 @@ export default function AboutPageClient() {
                 </Card>
               </motion.div>
             ))}
-          </div> */}
+          </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
