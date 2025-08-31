@@ -16,7 +16,7 @@ const pricingData = [
   },
   {
     service: "Billing (In network)",
-    tier1: "4.99%\n(min $250)",
+    tier1: "4.99%\n(min 4.5%)",
     tier2: "3.99%",
     tier3: "4.99%",
   },
@@ -61,7 +61,7 @@ const pricingData = [
 const pricingPlans = [
   {
     name: "Starter",
-    price: "2.99%",
+    price: "4.99%",
     description: "Perfect for small practices",
     features: ["Claims Processing", "Payment Posting", "Basic Reporting", "Email Support", "Monthly Statements"],
     notIncluded: ["Denial Management", "Prior Authorization", "24/7 Phone Support"],
@@ -70,7 +70,7 @@ const pricingPlans = [
   },
   {
     name: "Professional",
-    price: "3.99%",
+    price: "4.5%",
     description: "Most popular for growing practices",
     features: [
       "Everything in Starter",

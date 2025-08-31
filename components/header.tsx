@@ -113,7 +113,7 @@ export default function Header() {
       href: "/services/ai-automation",
     },
     {
-      title: "Quickbook & Accounting Services",
+      title: "Architecture & Design Services",
       description: "Professional CAD design and drafting services.",
       icon: Drafting,
       href: "/services/autocad",
