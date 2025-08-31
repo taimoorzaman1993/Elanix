@@ -144,7 +144,8 @@ export default function PricingClientPage() {
                 <div className="grid grid-cols-4 gap-0">
                   <div className="p-4 md:p-6 font-semibold text-lg md:text-xl">Collections</div>
                   <div className="p-4 md:p-6 text-center font-semibold text-lg md:text-xl border-l border-blue-500">
-                    Basic
+                    Basic 
+
                   </div>
                   <div className="p-4 md:p-6 text-center font-semibold text-lg md:text-xl border-l border-blue-500">
                     Standard
@@ -206,6 +207,7 @@ export default function PricingClientPage() {
                       {plan.price !== "Custom" && (
                         <span className="text-base md:text-lg text-gray-600">/collection</span>
                       )}
+                   
                     </div>
                     <p className="text-gray-600">{plan.description}</p>
                   </CardHeader>
