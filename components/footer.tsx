@@ -116,7 +116,7 @@ export default function Footer() {
 
                <li>
                 <Link
-                  href="/services/autocad"
+                  href="/services/architecture-and-design-services"
                   className="text-blue-200 hover:text-white transition-colors text-sm md:text-base"
                 >
                   Architecture & Design

@@ -2,11 +2,11 @@ import type { Metadata } from "next"
 import AutoCADClientPage from "./AutoCADClientPage"
 
 export const metadata: Metadata = {
-  title: "AutoCAD Services - Professional CAD Design & Drafting | Elanix Enterprise",
+  title: "Architecture & Design Services - Professional CAD Design & Drafting | Elanix Enterprise",
   description:
-    "Professional CAD design and drafting services for engineering, architecture, and technical documentation needs. Expert AutoCAD solutions and 3D modeling.",
+    "Professional CAD design and drafting services for engineering, architecture, and technical documentation needs. Expert Architecture &  3D modeling.",
   keywords: [
-    "AutoCAD services",
+    "Architecture & Design Services",
     "CAD design",
     "technical drafting",
     "engineering drawings",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     "mechanical drawings",
   ],
   openGraph: {
-    title: "AutoCAD Services - Professional CAD Design & Drafting | Elanix Enterprise",
+    title: "Architecture & Design Services - Professional CAD Design & Drafting | Elanix Enterprise",
     description:
       "Professional CAD design and drafting services for engineering, architecture, and technical documentation needs.",
     type: "website",
@@ -30,13 +30,13 @@ export const metadata: Metadata = {
         url: "/images/autocad-og.jpg",
         width: 1200,
         height: 630,
-        alt: "Elanix Enterprise AutoCAD Services",
+        alt: "Elanix Enterprise Architecture & Design Services",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AutoCAD Services - Professional CAD Design & Drafting | Elanix Enterprise",
+    title: "Architecture & Design Services - Professional CAD Design & Drafting | Elanix Enterprise",
     description:
       "Professional CAD design and drafting services for engineering, architecture, and technical documentation needs.",
     images: ["/images/autocad-twitter.jpg"],

@@ -116,7 +116,7 @@ export default function Header() {
       title: "Architecture & Design Services",
       description: "Professional CAD design and drafting services.",
       icon: Drafting,
-      href: "/services/autocad",
+      href: "/services/architecture-and-design-services",
     },
   ]
 
