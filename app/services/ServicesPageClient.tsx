@@ -82,7 +82,7 @@ const services = [
     description:
       "Professional CAD design and drafting services for engineering, architecture, and technical documentation needs.",
     icon: Drafting,
-    href: "/services/autocad",
+    href: "/services/architecture-and-design-services",
   },
   {
     title: "QuickBooks Accounting",
