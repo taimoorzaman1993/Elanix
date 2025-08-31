@@ -61,7 +61,7 @@ const pricingData = [
 const pricingPlans = [
   {
     name: "Starter",
-    price: "4.5%",
+    price: "4.99%",
     description: "Perfect for small practices",
     features: ["Claims Processing", "Payment Posting", "Basic Reporting", "Email Support", "Monthly Statements"],
     notIncluded: ["Denial Management", "Prior Authorization", "24/7 Phone Support"],
@@ -70,7 +70,7 @@ const pricingPlans = [
   },
   {
     name: "Professional",
-    price: "4.99%",
+    price: "4.5%",
     description: "Most popular for growing practices",
     features: [
       "Everything in Starter",
