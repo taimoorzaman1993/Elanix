@@ -309,7 +309,6 @@ const services = [
   "Complete quantity takeoffs from PDF or CAD drawings",
   "Cost estimation with material, labor & equipment breakdowns",
   "CSI Division–based BOQs",
-  "Bid-day support & addenda updates",
   "Value engineering & scope reviews",
   "Change orders & as-built reconciliations",
 ]
@@ -320,7 +319,7 @@ const benefits = [
   "Fast turnarounds – always on time",
   "Customized formats – tailored to your templates",
   "Accuracy you can rely on – double-checked numbers",
-  "All-in-one service across trades (Civil, Arch, MEP)",
+  "All CSI divisions",
   "Flexible engagements – one-time or ongoing support",
 ]
 
@@ -382,10 +381,10 @@ export default function EstimationClientPage() {
                 <div className="w-12 h-12 md:w-16 md:h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mr-4">
                   <Drafting className="w-6 h-6 md:w-8 md:h-8 text-white" />
                 </div>
-                <Badge className="bg-blue-500 text-white px-3 py-1 text-sm">Architecture & Design Services</Badge>
+                <Badge className="bg-blue-500 text-white px-3 py-1 text-sm">Construction Estimation </Badge>
               </div>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6">
-                Architecture & Design Services
+                Construction Estimation Services
               </h1>
               <p className="text-lg md:text-xl text-blue-200 mb-6 md:mb-8">
                 Accurate, reliable, and fast estimation services for contractors, builders, and project managers across
@@ -530,7 +529,7 @@ export default function EstimationClientPage() {
       <PricingTable
         serviceName="Construction Estimation"
         tiers={[
-          { name: "Basic", price: "$350", description: "Small Residential Projects" },
+          { name: "Basic", price: "$250", description: "Small Residential Projects" },
           { name: "Standard", price: "$600", description: "Medium-Scale Commercial Projects", popular: true },
           { name: "Premium", price: "$900", description: "Large Industrial & Public Projects" },
         ]}
@@ -539,9 +538,9 @@ export default function EstimationClientPage() {
           { name: "Cost Estimation (Material + Labor)", basic: true, standard: true, premium: true },
           { name: "Excel BOQs", basic: true, standard: true, premium: true },
           { name: "Marked-Up Drawings", basic: false, standard: true, premium: true },
-          { name: "Bid-Day Support", basic: false, standard: true, premium: true },
-          { name: "Value Engineering", basic: false, standard: false, premium: true },
+          { name: "Bid-Day Support", basic: false, standard: false, premium: true },
           { name: "Unlimited Revisions", basic: false, standard: false, premium: true },
+          { name: "Value Engineering", basic: false, standard: false, premium: false },
         ]}
       />
 

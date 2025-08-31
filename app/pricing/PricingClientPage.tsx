@@ -45,8 +45,8 @@ const pricingData = [
     tier3: "$1100",
   },
    {
-    service: "Architecture & Design Services",
-    tier1: "$350",
+    service: "Construction Estimation",
+    tier1: "$250",
     tier2: "$600",
     tier3: "$900",
   },

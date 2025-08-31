@@ -78,11 +78,11 @@ const services = [
     href: "/services/ai-automation",
   },
   {
-    title: "Architecture & Design Services",
+    title: "Construction Estimation ",
     description:
       "Professional CAD design and drafting services for engineering, architecture, and technical documentation needs.",
     icon: Drafting,
-    href: "/services/architecture-and-design-services",
+    href: "/services/construction-estimations",
   },
   {
     title: "QuickBooks Accounting",

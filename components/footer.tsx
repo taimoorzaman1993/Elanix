@@ -116,10 +116,10 @@ export default function Footer() {
 
                <li>
                 <Link
-                  href="/services/architecture-and-design-services"
+                  href="/services/construction-estimation"
                   className="text-blue-200 hover:text-white transition-colors text-sm md:text-base"
                 >
-                  Architecture & Design
+                  Construction Estimation 
                 </Link>
               </li>
 
