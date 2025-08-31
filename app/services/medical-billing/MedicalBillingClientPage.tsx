@@ -78,12 +78,12 @@ const faqData = {
 const pricingTiers = [
   {
     name: "Basic",
-    price: "4.99%",
+    price: "4.5%",
     description: "of total collection\n(min $250)",
   },
   {
     name: "Standard",
-    price: "4.5%",
+    price: "4.99%",
     description: "of total collection",
     popular: true,
   },
