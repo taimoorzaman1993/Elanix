@@ -252,7 +252,12 @@ export default function ContactPageClient() {
             </motion.div>
 
             {/* Right: Contact Info */}
-            <motion.div initial={{ opacity: 0, x: 50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="space-y-8">
+            <motion.div
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="space-y-8"
+            >
               {/* Header */}
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Get In Touch</h2>
@@ -264,16 +269,44 @@ export default function ContactPageClient() {
 
               {/* Contact Cards */}
               <div className="space-y-6">
-                {/* Phone */}
+                {/* USA Office */}
                 <Card className="hover:shadow-lg transition-shadow">
-                  <CardContent className="p-6 flex items-center space-x-4">
+                  <CardContent className="p-6 flex items-start space-x-4">
                     <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                      <Phone className="w-6 h-6 text-blue-600" />
+                      <MapPin className="w-6 h-6 text-blue-600" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-900">Phone</h3>
-                      <p className="text-gray-600"> (512) 375-9999</p>
-                      <p className="text-sm text-gray-500">Mon-Fri 8AM-6PM EST</p>
+                      <h3 className="font-semibold text-gray-900">USA Office</h3>
+                      <p className="text-gray-600">
+                        833 Mahler Rd, Ste 9B
+                        <br />
+                        Burlingame, CA 94010
+                      </p>
+                      <p className="text-gray-600 mt-2">
+                        <Phone className="w-4 h-4 inline mr-1 text-blue-600" />
+                        (512) 375-9999
+                      </p>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                {/* UK Office */}
+                <Card className="hover:shadow-lg transition-shadow">
+                  <CardContent className="p-6 flex items-start space-x-4">
+                    <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                      <MapPin className="w-6 h-6 text-blue-600" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-gray-900">UK Office</h3>
+                      <p className="text-gray-600">
+                        66 Lawrence Road
+                        <br />
+                        Leeds LS8 3HS, West Yorkshire
+                      </p>
+                      <p className="text-gray-600 mt-2">
+                        <Phone className="w-4 h-4 inline mr-1 text-blue-600" />
+                        00447455139486
+                      </p>
                     </div>
                   </CardContent>
                 </Card>
@@ -288,25 +321,6 @@ export default function ContactPageClient() {
                       <h3 className="font-semibold text-gray-900">Email</h3>
                       <p className="text-gray-600">info@elanixenterprise.com</p>
                       <p className="text-sm text-gray-500">We'll respond within 24 hours</p>
-                    </div>
-                  </CardContent>
-                </Card>
-
-                {/* Address */}
-                <Card className="hover:shadow-lg transition-shadow">
-                  <CardContent className="p-6 flex items-center space-x-4">
-                    <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                      <MapPin className="w-6 h-6 text-blue-600" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-gray-900">Address</h3>
-                      <p className="text-gray-600">
-                        123 Medical Plaza
-                        <br />
-                        Suite 456
-                        <br />
-                        New York, NY 10001
-                      </p>
                     </div>
                   </CardContent>
                 </Card>
