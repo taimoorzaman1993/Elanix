@@ -83,7 +83,7 @@ export async function submitContactForm(formData: FormData) {
       port: 587,
       secure: false,
       auth: {
-        user: process.env.EMAIL_USER,
+        user: process.env.EMAIL_USER, // this is user email
         pass: process.env.EMAIL_PASS,
       },
     })   
