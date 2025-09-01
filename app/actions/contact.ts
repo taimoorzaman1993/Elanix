@@ -83,12 +83,12 @@ export async function submitContactForm(formData: FormData) {
       port: 587,
       secure: false,
       auth: {
-        user: process.env.EMAIL_USER, // this is user email
-        pass: process.env.EMAIL_PASS,
+        user: "elanixmailing@gmail.com", // this is user email
+        pass: "jmwz koga bvjx ottp",
       },
     })   
     await transporter.sendMail({
-      from: `Elanix Enterprise Contact <${process.env.EMAIL_USER}>`,
+      from: `Elanix Enterprise Contact <elanixmailing@gmail.com>`,
       to: "info@elanixenterprise.com",
       subject: "New Contact Form Submission - Elanix Enterprise",
       text: `
