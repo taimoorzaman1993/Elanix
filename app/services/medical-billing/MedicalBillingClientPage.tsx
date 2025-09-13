@@ -90,7 +90,7 @@ const pricingTiers = [
   {
     name: "Premium",
     price: "Custom ",
-    description: "",
+    description: "Custom pricing ",
   },
 ]
 
@@ -339,7 +339,7 @@ export default function MedicalBillingClientPage() {
                   className="border-white text-white hover:bg-white hover:text-blue-600 px-6 md:px-8 py-3 bg-transparent"
                 >
                   <Mail className="mr-2 w-4 h-4 md:w-5 md:h-5" />
-                  Get Free Quote
+                  Get Your Quote
                 </Button>
               </Link>
             </div>

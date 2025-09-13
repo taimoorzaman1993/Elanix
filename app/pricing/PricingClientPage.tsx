@@ -81,7 +81,7 @@ const pricingPlans = [
       "Patient Statements",
       "Insurance Verification",
     ],
-    notIncluded: ["Dedicated Account Manager", "Custom Integrations"],
+    notIncluded: ["Dedicated Account Manager", ],
     popular: true,
     color: "border-blue-500 ring-2 ring-blue-500",
   },

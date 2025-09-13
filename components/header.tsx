@@ -34,6 +34,7 @@ export default function Header() {
   const [isResourcesOpen, setIsResourcesOpen] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [cursorTrail, setCursorTrail] = useState<CursorTrail[]>([])
+  
 
   // Cursor trail effect
   useEffect(() => {
@@ -160,7 +161,7 @@ export default function Header() {
                 </div>
                 <div className="flex items-center space-x-2">
                   <Phone className="w-4 h-4" />
-                  <span className="font-medium">(512) 375-9999</span>
+                  <span className="font-medium">+1 (512) 375-9999</span>
                 </div>
               </div>
               <div className="flex items-center space-x-2">
@@ -195,62 +196,68 @@ export default function Header() {
               {/* Desktop Navigation */}
               <nav className="hidden lg:flex items-center space-x-6 xl:space-x-8">
                 {/* Services Dropdown */}
-                <div
-                  className="relative"
-                  onMouseEnter={() => setIsServicesOpen(true)}
-                  onMouseLeave={() => setIsServicesOpen(false)}
+      <div
+        className="relative"
+        onMouseEnter={() => setIsServicesOpen(true)}
+        onMouseLeave={() => setIsServicesOpen(false)}
+        
+      >
+        <button className="flex items-center space-x-1 text-gray-700 hover:text-blue-600 transition-colors font-medium py-2">
+          <span>Services</span>
+          <ChevronDown className="w-4 h-4" />
+        </button>
+
+        <AnimatePresence>
+          {isServicesOpen && (
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 10 }}
+              transition={{ duration: 0.2 }}
+              className="absolute top-full left-[-5%] mt-2 w-[900px] xl:w-[900px] max-w-[60vw]
+                         bg-white rounded-xl shadow-2xl border border-blue-100 
+                         p-6 md:p-8 grid grid-cols-3 gap-4 md:gap-5
+                         max-h-[90vh] overflow-y-auto z-50"
+            >
+              {services.map((service, index) => (
+                <motion.div
+                  key={service.title}
+                  initial={{ opacity: 0, x: -20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: index * 0.1 }}
                 >
-                  <button className="flex items-center space-x-1 text-gray-700 hover:text-blue-600 transition-colors font-medium py-2">
-                    <span>Services</span>
-                    <ChevronDown className="w-4 h-4" />
-                  </button>
+                  <Link
+                    href={service.href}
+                    className="flex items-start space-x-3 md:space-x-4 p-3 md:p-4 rounded-lg 
+                               hover:bg-blue-50 transition-colors group"
+                  >
+                    <div className="w-12 h-12 md:w-14 md:h-14 bg-blue-100 rounded-lg flex items-center justify-center group-hover:bg-blue-200 transition-colors">
+                      <service.icon className="w-6 h-6 md:w-7 md:h-7 text-blue-600" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors text-sm md:text-base">
+                        {service.title}
+                      </h3>
+                      <p className="text-xs md:text-sm text-gray-600 mt-1">{service.description}</p>
+                    </div>
+                  </Link>
+                </motion.div>
+              ))}
 
-                  <AnimatePresence>
-                    {isServicesOpen && (
-                      <motion.div
-                        initial={{ opacity: 0, y: 10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: 10 }}
-                        transition={{ duration: 0.2 }}
-                        className="absolute top-full left-[-5%] mt-2 w-[900px] xl:w-[900px] max-w-[60vw] bg-white rounded-xl shadow-2xl border border-blue-100 p-6 md:p-8 grid grid-cols-3 gap-4 md:gap-5"
-                      >
-                        {services.map((service, index) => (
-                          <motion.div
-                            key={service.title}
-                            initial={{ opacity: 0, x: -20 }}
-                            animate={{ opacity: 1, x: 0 }}
-                            transition={{ delay: index * 0.1 }}
-                          >
-                            <Link
-                              href={service.href}
-                              className="flex items-start space-x-3 md:space-x-4 p-3 md:p-4 rounded-lg hover:bg-blue-50 transition-colors group"
-                            >
-                              <div className="w-12 h-12 md:w-14 md:h-14 bg-blue-100 rounded-lg flex items-center justify-center group-hover:bg-blue-200 transition-colors">
-                                <service.icon className="w-6 h-6 md:w-7 md:h-7 text-blue-600" />
-                              </div>
-                              <div>
-                                <h3 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors text-sm md:text-base">
-                                  {service.title}
-                                </h3>
-                                <p className="text-xs md:text-sm text-gray-600 mt-1">{service.description}</p>
-                              </div>
-                            </Link>
-                          </motion.div>
-                        ))}
-                        <div className="col-span-3 mt-4 p-4 md:p-6 bg-gradient-to-r from-blue-50 to-blue-100 rounded-lg">
-                          <h3 className="font-semibold text-blue-900 mb-2">REQUEST A CONSULTATION</h3>
-                          <p className="text-sm text-blue-700 mb-4">
-                            Schedule a FREE consultation to learn how we can help your business grow.
-                          </p>
-                          <Link href="/contact">
-                            <Button className="bg-blue-600 hover:bg-blue-700 text-white">Get Started</Button>
-                          </Link>
-                        </div>
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
-                </div>
-
+              {/* Call-to-Action Section */}
+              <div className="col-span-3 mt-4 p-4 md:p-6 bg-gradient-to-r from-blue-50 to-blue-100 rounded-lg">
+                <h3 className="font-semibold text-blue-900 mb-2">REQUEST A CONSULTATION</h3>
+                <p className="text-sm text-blue-700 mb-4">
+                  Schedule a FREE consultation to learn how we can help your business grow.
+                </p>
+                <Link href="/contact">
+                  <Button className="bg-blue-600 hover:bg-blue-700 text-white">Get Started</Button>
+                </Link>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
                 <Link
                   href="/specialties"
                   className="text-gray-700 hover:text-blue-600 transition-colors font-medium py-2"
@@ -320,7 +327,7 @@ export default function Header() {
               <div className="hidden lg:block">
                 <Link href="/contact">
                   <Button className="bg-blue-600 hover:bg-blue-700 text-white px-4 md:px-6 py-2 md:py-3 rounded-lg font-medium shadow-lg text-sm md:text-base">
-                    Get Free Quote
+                    Request a Quote
                   </Button>
                 </Link>
               </div>

@@ -34,7 +34,7 @@ import { useState, useEffect } from "react"
 const heroSlides = [
   {
     id: 0,
-    title: "From 200+ USA projects to new horizons in Canada & UK.",
+    title: "From 200+ projects to new horizons in the North America and Europe region  ",
     service: "Global Expansion",
     type: "global-expansion",
     backgroundImage: "/coverAll.jpg?height=800&width=1200",
@@ -140,15 +140,15 @@ const pricingPlans = [
   {
     name: "Starter",
     price: "4.99%",
-    description: "Perfect for small practices",
-    features: ["Claims Processing", "Payment Posting", "Basic Reporting", "Email Support"],
+    description: "Perfect for small bussiness",
+    features: ["Claims Processing", "Payment Posting", "Basic Reporting", "Email Support","24/7 Support"],
     popular: false,
     color: "border-blue-200",
   },
   {
     name: "Professional",
     price: "3.99%",
-    description: "Most popular for growing practices",
+    description: " Popular for growing bussiness",
     features: [
       "Everything in Starter",
       "Denial Management",
@@ -162,12 +162,13 @@ const pricingPlans = [
   {
     name: "Enterprise",
     price: "Custom",
-    description: "For large practices and hospitals",
+    description: "Custom solutions for bussiness",
     features: [
       "Everything in Professional",
       "Dedicated Account Manager",
       "Custom Integrations",
       "24/7 Priority Support",
+      "Expert Consultation",
     ],
     popular: false,
     color: "border-blue-200",
@@ -450,9 +451,14 @@ export default function HomePageClient() {
                         {heroSlides[currentSlide].service}
                       </Badge>
 
-                      <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-6 md:mb-8 leading-tight">
-                        {heroSlides[currentSlide].title}
+                     <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-6 md:mb-8 leading-tight text-white">
+                      <TypingEffect 
+                        text={heroSlides[currentSlide].title} 
+                        speed={55} 
+                        className="text-white" 
+                      />
                       </h1>
+
                     </>
                   )}
 
@@ -768,13 +774,15 @@ export default function HomePageClient() {
                   Get Free Consultation
                 </Button>
               </Link>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-white text-white hover:bg-white hover:text-blue-600 px-6 md:px-8 py-3 rounded-full bg-transparent"
-              >
+              <Link href="/for-you">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-white text-white hover:bg-white hover:text-blue-600 px-6 md:px-8 py-3 rounded-full bg-transparent"
+                >
                 <span className="text-blue-900">Learn More</span>
               </Button>
+              </Link>
             </div>
           </motion.div>
         </div>

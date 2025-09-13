@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { MessageCircle, X } from "lucide-react"
+import { MessageCircle, X, Mail } from "lucide-react"
 
 export default function FloatingContact() {
   const [isOpen, setIsOpen] = useState(false)
@@ -13,6 +13,10 @@ export default function FloatingContact() {
 
   const handleiMessage = () => {
     window.open("sms:+15123759999", "_blank")
+  }
+
+  const handleEmail = () => {
+    window.open("mailto:info@elanixenterprise.com", "_blank")
   }
 
   return (
@@ -38,7 +42,20 @@ export default function FloatingContact() {
               <span className="font-medium">WhatsApp</span>
             </motion.button>
 
-            {/* iMessage Button */}
+           
+
+            {/* Email Button */}
+            <motion.button
+              onClick={handleEmail}
+              className="flex items-center space-x-3 bg-red-500 hover:bg-red-600 text-white px-4 py-3 rounded-full shadow-lg transition-colors"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <Mail className="w-6 h-6" />
+              <span className="font-medium">Email</span>
+            </motion.button>
+
+           {/* iMessage Button */}
             <motion.button
               onClick={handleiMessage}
               className="flex items-center space-x-3 bg-blue-500 hover:bg-blue-600 text-white px-4 py-3 rounded-full shadow-lg transition-colors"
@@ -48,6 +65,7 @@ export default function FloatingContact() {
               <MessageCircle className="w-6 h-6" />
               <span className="font-medium">Text</span>
             </motion.button>
+
           </motion.div>
         )}
       </AnimatePresence>

@@ -47,10 +47,10 @@ export default function CommunicationClientPage() {
       icon: Clock,
       title: "Response Times",
       points: [
-        "Emergency issues: Within 2 hours",
+        "Urgent issues: Within 2 hours",
         "General inquiries: Within 24 hours",
         "Project updates: Weekly reports",
-        "Billing questions: Same business day",
+        "Other questions: Same business day",
       ],
     },
     {
@@ -192,8 +192,8 @@ export default function CommunicationClientPage() {
         </div>
       </section>
 
-      {/* Emergency Contact Section */}
-      <section className="py-16 px-4 bg-gradient-to-r from-red-50 to-orange-50">
+      {/* Customer Support Section */}
+      <section className="py-16 px-4 bg-gradient-to-r from-blue-50 to-indigo-50">
         <div className="container mx-auto max-w-4xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -201,30 +201,31 @@ export default function CommunicationClientPage() {
             transition={{ duration: 0.6 }}
             className="text-center"
           >
-            <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center mx-auto mb-6">
+            <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
               <Phone className="w-8 h-8 text-white" />
             </div>
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Emergency Support</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Customer Support</h2>
             <p className="text-gray-600 text-lg mb-8">
-              For urgent billing issues or system outages that affect patient care
+               Reach out for assistance with your questions, concerns, or support needs
             </p>
             <div className="bg-white rounded-lg p-8 shadow-lg max-w-md mx-auto">
-              <h3 className="text-xl font-bold text-red-600 mb-4">24/7 Emergency Line</h3>
+              <h3 className="text-xl font-bold text-blue-600 mb-4">Dedicated Support Line</h3>
               <p className="text-2xl font-bold text-gray-900 mb-4">(512) 375-9999</p>
-              <p className="text-sm text-gray-600">Press 1 for emergency support when calling outside business hours</p>
+              <p className="text-sm text-gray-600">Available 24/7 — our team is ready to assist you anytime</p>
             </div>
           </motion.div>
         </div>
       </section>
+
 
       {/* CTA Section */}
       <section className="py-16 px-4">
         <div className="container mx-auto max-w-4xl text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Ready to Get Started?</h2>
-            <p className="text-gray-600 text-lg mb-8">Contact us today to discuss your healthcare business needs</p>
+            <p className="text-gray-600 text-lg mb-8">Contact us today to discuss your  business needs</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Link href="/contact">
+              <Link href="sms:+15123759999" >
                 <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-medium shadow-lg flex items-center space-x-2">
                   <Mail className="w-5 h-5" />
                   <span>Send Message</span>
