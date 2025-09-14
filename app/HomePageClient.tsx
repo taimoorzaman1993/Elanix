@@ -34,7 +34,7 @@ import { useState, useEffect } from "react"
 const heroSlides = [
   {
     id: 0,
-    title: "From 200+ projects to new horizons in the North America and Europe region  ",
+    title: "From 200+ projects to new horizons in the North American & European region  ",
     service: "Global Expansion",
     type: "global-expansion",
     backgroundImage: "/coverAll.jpg?height=800&width=1200",
