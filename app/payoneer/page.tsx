@@ -115,7 +115,7 @@ export default function PayoneerPage() {
                     </div>
                   </div>
                 </div>
-
+{/* 
                 <div className="mt-8 p-6 bg-blue-50 rounded-lg">
                   <h4 className="font-semibold text-blue-900 text-lg mb-3">Verification Details</h4>
                   <ul className="space-y-2 text-blue-700">
@@ -136,7 +136,7 @@ export default function PayoneerPage() {
                       Payoneer compliance requirements met
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </CardContent>
             </Card>
           </motion.div>
