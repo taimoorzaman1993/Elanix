@@ -140,7 +140,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-blue-700 mt-8 md:mt-12 pt-6 md:pt-8 text-center text-blue-200">
-          <p className="text-sm md:text-base">&copy; Elanix Enterprise 2025. All Rights Reserved.</p>
+          <p className="text-sm md:text-base">&copy; Elanix Enterprise 2026. All Rights Reserved.</p>
           <div className="flex flex-col sm:flex-row justify-center space-y-2 sm:space-y-0 sm:space-x-6 mt-4">
             <Link href="/privacy-policy" className="hover:text-white transition-colors text-sm md:text-base">
               Privacy Policy
